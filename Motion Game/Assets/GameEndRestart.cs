@@ -7,7 +7,7 @@ public class GameEndRestart : MonoBehaviour
 {
     public void Update()
     {
-        if(gameObject.activeSelf == true&& Input.GetKeyDown(KeyCode.R))
+        if(gameObject.activeSelf == true && Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
